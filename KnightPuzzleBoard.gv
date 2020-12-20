@@ -1,0 +1,14 @@
+# dot -Tpng Board.gv -o output.png
+# Adjacency graph for squares in puzzle about moving chess knights on an incomplete board
+graph PuzzleBoard {
+      a1 -- b3
+      a1 -- c2
+      a2 -- c3
+      a3 -- b1
+      a3 -- c2
+      a4 -- b2
+      a4 -- c3
+
+      b1 -- c3
+      b2 -- d3
+}
